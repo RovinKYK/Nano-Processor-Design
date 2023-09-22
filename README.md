@@ -24,6 +24,6 @@ This repository contains the VHDL code for a Nano Processor implemented in Vivad
 3. It is normal to observe the zero and overflow indicators light up during operation.
 4. If the reset button is pressed for at least one slow clock cycle, the program restarts.
 
-## Sample Machine Learning Code
+## Sample Program
 
-The sample assembly code to run in the processor to get above results can be found from [here] (https://github.com/RovinKYK/Nano-Processor-Design/blob/main/Assembly%20Code.txt)
+Assembly code of the sample program running on the processor to get above results can be found from [here] (https://github.com/RovinKYK/Nano-Processor-Design/blob/main/Assembly%20Code.txt)
