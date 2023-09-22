@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab 9.srcs/sources_1/new/3bit_adder.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/8_to_4_mux.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/P_counter.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/RCA_4.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/ROM.vhd" \
+"../../../../Lab 9.srcs/sources_1/imports/new/Reg.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/Register_bank.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/instruction_decoder.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/mux_2_to_3.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/mux_2_to_4.vhd" \
+"../../../../Lab 9.srcs/sources_1/new/Micro_p.vhd" \
+
+# Do not sort compile order
+nosort
