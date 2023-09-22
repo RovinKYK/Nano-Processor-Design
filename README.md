@@ -1,10 +1,10 @@
-# Nano Processor with VHDL in Vivado
+# Nano Processor Design
 
-![Nano Processor](Image.jpg)
+<img src="Image.PNG" alt="Nano Processo" width="1000"/>
 
 ## Overview
 
-This repository contains the VHDL code for a Nano Processor implemented in Vivado. The processor includes multiplexers, adders, address decoders, instruction decoders, and various other components. It is capable of decoding basic machine language programs and executing them. 
+This repository contains the VHDL code for a Nano Processor implemented in Vivado. The processor includes multiplexers, adders, address decoders, instruction decoders, and various other components. The project was demonstrated using Digilent Basys 3 FPGA development board. It is capable of decoding basic machine code programs and executing them. 
 
 ## MicroProcessor Operation Instructions
 
@@ -19,34 +19,11 @@ This repository contains the VHDL code for a Nano Processor implemented in Vivad
 
 ### Behavior
 
-After powering up, the board should display the digits 0, 3, 5, 6 in-order on both the 7-segment display and LEDs.
-
-The final result of the program (6) should be displayed at the end, which is the sum of all integers between 1 and 3.
-
-It is normal to observe the zero and overflow indicators light up during operation.
-
-If the reset button is pressed for at least one slow clock cycle, the program restarts.
+1. After powering up, the board should display the digits 0, 3, 5, 6 in-order on both the 7-segment display and LEDs.
+2. The final result of the program (6) should be displayed at the end, which is the sum of all integers between 1 and 3.
+3. It is normal to observe the zero and overflow indicators light up during operation.
+4. If the reset button is pressed for at least one slow clock cycle, the program restarts.
 
 ## Sample Machine Learning Code
 
-[Provide a brief description of the sample machine learning code included in the repository.]
-
-## Getting Started
-
-[Include instructions on how to set up and run the Nano Processor on your hardware.]
-
-## Contributing
-
-[Explain how others can contribute to this project, if applicable.]
-
-## License
-
-[Specify the license under which the project is distributed.]
-
-## Acknowledgements
-
-[Give credit to any resources, libraries, or individuals who contributed to this project.]
-
----
-
-Feel free to customize and expand upon this template to provide comprehensive information about your Nano Processor project. Add specific details about your VHDL implementation, any special setup instructions, and any other relevant information. Good luck with your project!
+The sample assembly code to run in the processor to get above results can be found from [here] (https://github.com/RovinKYK/Nano-Processor-Design/blob/main/Assembly%20Code.txt)
